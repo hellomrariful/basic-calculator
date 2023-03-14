@@ -1,0 +1,126 @@
+#calculator {
+    background-color: rgb(42, 241, 11);
+    border: 1px solid rgb(196, 20, 20);
+    border-radius: 5px;
+    padding: 140px;
+    width: 320px;
+    margin: 20px;
+  }
+   #header{
+    margin: 20px;
+  }
+   #footer{
+    margin-left: 20px;
+  }
+ 
+ 
+  #screen {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #000;
+    height: 90px;
+    margin-bottom: 40px;
+    padding: 12px;
+    text-align: right;
+  }
+   button {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    margin-right: 34px;
+    width: 43px;
+    padding: 5px;
+    margin-top: 8px;
+  }
+   button:hover {
+    background-color: #fc0932;
+  }
+   .number {
+    color: rgb(0, 0, 0);
+  }
+   .operation {
+    color: rgb(255, 0, 0);
+  }
+   #equals {
+    background-color: green;
+    color: #fff;
+  }
+   #clear {
+    background-color: red;
+    color: #fff
+  }
+ 
+ 
+  /* Responsive */
+ 
+ 
+  .calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+  }
+   .screen {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    padding: 0 10px;
+  }
+   .row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+   .button {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+    height: 50px;
+    width: 23%;
+    max-width: 100px;
+  }
+   .button:hover {
+    cursor: pointer;
+    background-color: #e6e6e6;
+  }
+   .operation {
+    color: white;
+    background-color: #ff8c00;
+  }
+   .equals {
+    color: white;
+    background-color: #008000;
+  }
+   @media screen and (max-width: 600px) {
+    .calculator {
+      width: 100%;
+      padding: 10px;
+    }
+   
+    .button {
+      width: 30%;
+      font-size: 18px;
+      max-width: 80px;
+    }
+   
+    .row {
+      margin-bottom: 5px;
+    }
+  }
+ 
